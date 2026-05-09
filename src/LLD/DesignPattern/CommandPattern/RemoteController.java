@@ -19,6 +19,7 @@ public class RemoteController {
         if(index < 0 || index >= commandAppliance.length) {
             throw new IllegalArgumentException("Invalid index");
         }
+
         this.command = commandAppliance[index];
     }
 
